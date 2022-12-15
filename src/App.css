@@ -6,7 +6,7 @@
 body {
   margin: 0;
   background-color: #2b283a;
-  padding-top: 20px;
+  padding-top: 9rem;
   display: flex;
   justify-content: center;
 }
@@ -17,4 +17,28 @@ main {
   height: 70vh;
   max-width: 800px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.dice-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.die-face {
+  color: #2b283a;
+  width: 15%;
+  height: 6rem;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  box-shadow: 1px 1px 5px 3px #a4a2af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
