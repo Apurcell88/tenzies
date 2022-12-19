@@ -44,6 +44,10 @@ main {
   cursor: pointer;
 }
 
+.held {
+  background-color: #59E391;
+}
+
 .roll-btn {
   background-color: #337EDE;
   border: none;
