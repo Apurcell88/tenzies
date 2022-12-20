@@ -1,8 +1,14 @@
 const Die = (props) => {
-  const diceHeld = props.isHeld ? 'held' : '';
+  const styles = {
+    backgroundColor: props.isHeld ? '#59e391' : 'white'
+  }
 
   return (
-    <div className={[diceHeld, 'die-face'].join(' ')}>
+    <div
+      className='die-face'
+      style={styles}
+      onClick={() => props.holdDice(props.id)}
+    >
       <h2>{props.value}</h2>
     </div>
   );
